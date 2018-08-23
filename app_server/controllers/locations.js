@@ -1,11 +1,11 @@
 /* GET home page */
 module.exports.homelist = function(req, res){
-    res.render('index', { title: 'Home' });
+    res.render('locations-list', { title: 'Home' });
 };
 
 /* GET information page */
 module.exports.locationinfo = function(req, res){
-    res.render('index', { title: 'Location info' });
+    res.render('location-info', { title: 'Location info' });
 };
 
 /* GET feedback page */
