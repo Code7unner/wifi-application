@@ -45,7 +45,7 @@ module.exports.locationinfo = function(req, res){
         },
         location: {
             name: 'Pirate coffee',
-            address: '125 High Street, Reading, RG6 1PS',
+            address: '17 Neibuta Street, 690000',
             rating: 3,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             coords: {
